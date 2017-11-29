@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/javascripts/heroes.js"></script>
+    <script type="text/javascript" language="javascript" src="/javascripts/items.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+    <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+  </head>
+  <body>
+    <div id="example"></div>
+
+    <div id="header"></div>
+    <div id="application"></div>
+    <script type="text/babel" src="/javascripts/main.js"></script>
+    <script type="text/babel" src="/javascripts/header.js"></script>
+
+    <%# <form action='/dotaStats' method='post'>
+      <div class="row center-align">
+        <div class="input-field col s8">
+          <input id="last_name" name = "name" type="text" class="validate">
+          <label for="last_name">You steam acount_Id(Aibo Li's steam account number is 255912203, check this out!~)</label>
+        </div>
+        <div class="input-field col s4">
+        <button class="btn waves-effect waves-light red center" type="submit" name="action">Get Start!
+          <i class="material-icons right">send</i>
+        </button>
+        </div>
+      </div>
+    </form>%>
+    <div class = "center-align" id = 'heroresult'>
+    </div>
+    <%# <div class = "row">
+      <div class="col s5">
+        <div class="card-panel white">
+          <div id = "chart1" class="ct-chart ct-perfect-fourth"></div>
+          <span class="black-text">
+              Here is your pie char of heroes choosing in recent 100 games
+          </span>
+        </div>
+      </div>
+      <div class="col s5">
+        <div class="card-panel white">
+          <div id = "chart2" class="ct-chart ct-perfect-fourth"></div>
+          <span class="black-text">
+              Here is your summarization of your recent 100 games
+          </span>
+        </div>
+      </div>
+    </div>%>
+    <script>
+
+    </script>
+  </body>
+</html>
